@@ -1,0 +1,82 @@
+#skylux_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#right {
+    border-top-right-radius: 5px;
+}
+
+#left {
+    border-top-left-radius: 5px;
+}
+
+.bg_btn:hover {
+    background-color: red;
+    color: whitesmoke;
+}
+
+article {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+section {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+tbody {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: #0181CB;
+    color: #FDC500;
+    text-align: inherit;
+    padding: 2px;
+    margin: 0px;
+}
+
+button {
+    background-color: inherit;
+    border: none;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: red;
+    color: whitesmoke;
+}
+
+button:focus {
+    outline: none;
+}
+
+tr:nth-child(even) {
+    background-color: lightgoldenrodyellow;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
